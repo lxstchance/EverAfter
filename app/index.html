@@ -5,15 +5,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
 
-  <header class="header"></header>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="" class="header__logo">
+          <img class="header__logo-link" src="./images/logo.svg" alt="logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a class="menu__list-link" href="#">product</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Solutions</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">Pricing</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">learn</a></li>
+            <li class="menu__list-item"><a class="menu__list-link" href="#">COMPANY</a></li>
+          </ul>
+        </nav>
+        <div class="header__buttons">
+          <a href="#" class="header__loggin">LOG IN</a>
+          <a class="header__btn" href="#">Get Started</a>
+          <a class="header__btn" href="#">Book Demo</a>
+        </div>
+      </div>
+    </div>
+  </header>
   <div class="wrapper">
-    <main class="main"></main>
+    <main class="main">
+      <section class="get">
+        <div class="container">
+          <div class="get__inner">
+            <h1 class="get__title">
+              Get on the<br> same page with<br>
+              your customer.<br>
+              Literally.
+            </h1>
+            <p class="get__text">
+              An intuitive drag-and-drop builder that lets you create a shared workspace with each account directly inside your product.
+            </p>
+            <div class="get__form">
+              <input class="get__input" type="email" placeholder="Enter your email...">
+              <a href="#" class="get__started">GET STARTED</a>
+            </div>
+            <div class="get__awards">
+              <img src="./images/awards-1.png" alt="" class="get__awards-img">
+              <img src="./images/awards-2.png" alt="" class="get__awards-img">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footer"></footer>
   </div>
 

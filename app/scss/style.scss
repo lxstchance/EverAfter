@@ -6,7 +6,118 @@
 @import 'normalize';
 
 
+.header{
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    max-height: 90px;
+    align-items: center;
+    padding-top: 15px;
+  }
+  &__loggin{
+    margin-right: 43px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #221437;
+  }
+  &__buttons{
+    margin-top: 10px;
+  }
+  &__btn{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #793CFB;
+    border-radius: 50px;
+    border: 5px solid #793CFB;
+    color: #EFF7FD;
+    transition: all .3s;
+    &:hover{
+      color: #793CFB;
+      background-color: #fff;
+      border: 5px solid #793CFB;
+    }
+  }
+  &__btn+.header__btn{
+    margin-left: 11px;
+  }
+}
 
+.menu{
+  &__list{
+    display: flex;
+    margin-top: 10px;
+  }
+  &__list-item+.menu__list-item{
+    margin-left: 62px;
+  }
+  &__list-link{
+    color: #221437;
+    text-transform: uppercase;
+  }
+  &__list-link{
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.get{
+  background-image: url(../images/get-bg.png);
+  height: 1048px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  &__title{
+    margin-top: 41px;
+    margin-bottom: 59px;
+    font-size: 99px;
+    line-height: 99px;
+  }
+  &__text{
+    font-size: 23px;
+    line-height: 33px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+  }
+  &__input{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10.8px rgba(0, 0, 0, 0.05);
+    border-radius: 36px;
+    padding: 20px 198px 20px 26px;
+    margin-right: 39px;
+    &::placeholder{
+      font-size: 12px;
+      line-height: 18px;
+      color: #000;
+    }
+  }
+  &__started{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    padding: 14px 43px;
+    color: #fff;
+    background-color: #793CFB;
+    border-radius: 36px;
+    border: 5px solid #793CFB;
+    color: #EFF7FD;
+    transition: all .3s;
+    &:hover{
+      color: #793CFB;
+      background-color: #fff;
+      border: 5px solid #793CFB;
+    }
+  }
+  &__awards{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+  }
+  &__awards-img+.get__awards-img{
+    margin-left: 10px;
+  }
+}
 
 
 @import 'media';
