@@ -438,6 +438,126 @@
   }
 }
 
+.techstack{
+  margin-top: 116px;
+  text-align: center;
+  align-items: center;
+  &__title{
+    font-weight: normal;
+    font-size: 79px;
+    line-height: 79px;
+    width: 820px;
+    margin: 0 auto;
+  }
+  &__images{
+    margin-top: 350px;
+    position: relative;
+  }
+  &__images-main{
+    margin: 0 auto;
+  }
+  &__img1{
+    position: absolute;
+    top: -264px;
+    left: 359px;
+    z-index: 3;
+    filter: drop-shadow(0px 34px 34px rgba(0, 0, 0, 0.05));
+  }
+  &__img2{
+    position: absolute;
+    top: -231px;
+    left: 826px;
+    z-index: 3;
+    filter: drop-shadow(0px 34px 34px rgba(0, 0, 0, 0.05));
+  }
+  &__images-line{
+    position: absolute;
+    top: -245px;
+    left: 215px;
+  }
+}
+
+.verbit{
+  margin-top: 200px;
+  background-image: url(../images/verbit-bg.png);
+  height: 1094px;
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title{
+    font-size: 59px;
+    line-height: 70px;
+    font-weight: normal;
+    width: 895px;
+    text-align: center;
+    margin-bottom: 62px;
+  }
+}
+
+.started{
+  &__title{
+    margin-top: 92px;
+    margin-bottom: 89px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 81px;
+    line-height: 81px;
+    width: 719px;
+  }
+  &__email{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10.8px rgba(0, 0, 0, 0.05);
+    border-radius: 36px;
+    padding: 20px 191px 20px 33px;
+    margin-right: 29px;
+    &::placeholder{
+      color: #000;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+  &__btn{
+    padding: 19px 48px;
+  }
+}
+
+.footer{
+  margin-top: 54px;
+  padding-top: 63px;
+  &__box{
+    display: flex;
+  }
+  &__product-list{
+    margin-left: 460px;
+  }
+  &__learn,
+  &__company{
+    margin-left: 86px;
+  }
+  &__product-item,
+  &__learn-item,
+  &__company-item{
+    margin-bottom: 10px;
+  }
+  &__product-link,
+  &__learn-link,
+  &__company-link{
+    color: #000;
+  }
+  &__copy{
+    margin-top: 121px;
+    margin-bottom: 86px;
+  }
+}
+
+.first-li{
+  margin-bottom: 21px;
+  font-weight: bold;
+}
+
 .green{
   color: #9FB55D;
 }
